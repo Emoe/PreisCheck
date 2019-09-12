@@ -21,7 +21,6 @@ class Mailsender():
         self.connection = smtplib.SMTP(host=self.hostname, port=self.port)
         self.connection.starttls()
         self.connection.login(self.username, self.password) 
-        print(self.connection)
     
     def sendMessage(self, name, priceWish, vendor, url):
         subject = "{} is cheaper then {}".format(name, priceWish)
