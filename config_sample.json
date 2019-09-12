@@ -1,0 +1,23 @@
+{
+    "items" : [
+        {   
+            "name": "",
+            "url": "",
+            "vendor": "",
+            "priceWish": ""
+        },
+        {
+            "name": "",
+            "url": "",
+            "vendor": "",
+            "priceWish": ""
+        }
+    ],
+    "mailConfig": {
+        "username": "",
+        "password": "",
+        "smtpServer": "",
+        "smtpPort": 587,
+        "recipient": ""
+    }
+}
